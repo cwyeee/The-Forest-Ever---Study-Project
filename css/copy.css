@@ -1,0 +1,317 @@
+
+@media screen and (max-width: 1000px) {
+
+    .nav-links {
+        font-size: 0.9em;
+    }
+
+    .banner-bottom-section .container h3 {
+        font-size: 35px;
+    }
+    
+    .what-we-do.container,
+    .banner-bottom-section.container {
+        width: 970px; 
+    }
+    .single-do {
+        padding: 35px 25px ;
+    }
+    .single-do h5 span {
+        font-size: 20px;
+    }
+    .single-do span {
+        font-size: 18px;
+    }
+    .single-do p {
+        font-size: 16px;
+    }
+
+} /*1000px */
+
+@media screen and (max-width: 900px) {
+    .banner-bottom-section .container h3 {
+        font-size: 28px;
+    }
+    .banner-bottom-section .container {
+        padding: 0 18px 0 18px;
+    }
+    .what-we-do .row {
+        flex-direction: column;
+    }
+    .what-we-do {
+        padding-right: 10px;   
+        padding-left: 10px;   
+    }
+    .col {
+        margin-top: 15px;
+        flex-basis: 100%;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+    .our-causes {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+} /*900px */
+
+@media screen and (max-width: 870px) {
+    .navbar .nav-links ul li {
+        margin: 0 7px;
+    }
+    .our-causes .container{
+        padding: 20px;
+    }
+    .our-causes .container .cards .card-left {
+        flex-basis: calc(100% - 10px);
+        max-width: 720px;
+        min-width: 420px;
+        padding: 15px;
+        min-height: 240px;
+    }
+    .our-causes .container .cards .card-right {
+        flex-basis: calc(100% - 10px);
+    }
+
+
+} /*870px*/
+
+@media screen and (max-width: 780px) {
+    .navbar {
+        padding: 25px 20px;
+        align-items: center;
+    }
+    /*section {
+        position: relative;
+         z-index: 1; 
+    }*/
+    .navbar .nav-links,
+    .navbar .menu-hamburger {
+        z-index: 2;
+    }
+    .navbar .logo {
+        width: 110px;
+    }
+    .navbar .nav-links {
+        top: 0;
+        left: 0;
+        position: absolute;
+        background-color: rgba(255, 255, 255, 0.20);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);      
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -100%;
+        transition: all 0.6s ease-in-out;
+    }
+    .navbar .nav-links.mobile-menu {
+        margin-left: 0;
+    }
+    .navbar .nav-links ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .navbar .nav-links ul li {
+        display: block;
+        margin: 14px 0;
+        font-size: 1.4em;
+    }
+    .navbar .menu-hamburger {
+        display: block;
+    }
+
+    h1 {
+        font-size: 6.5vw;
+    }
+    .row {
+        flex-direction: column;
+    }
+    .col {
+        flex-basis: 100%;
+    }
+    .formulary .row {
+        flex-direction: row;
+    }
+
+
+    footer{
+        padding: O;
+    }
+    .footer-content {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "center right"
+        "left left";
+    }
+    .footer-content .footer-left {
+        margin-top: 40px;
+        grid-area: left;
+        justify-self: center;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    .footer-content .footer-center {
+        grid-area: center;
+    }
+    .footer-content .footer-right {
+        grid-area: right;
+    }
+    .footer-content .footer-left {
+        margin: 0;
+        flex-direction: row;
+    }
+    #back-to-top {
+        right: 15px;
+    }
+} /*780px */
+
+@media screen and (max-width: 680px) {
+    body {
+        font-size: 23px;
+    }qsdqd
+    .navbar .onglets {
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+
+    h3 {
+        font-size: 21px;
+    }
+    p{
+        font-size: 16px;
+        /* margin:auto; */
+    }
+    .welcome button {
+        width: 160px;
+        padding: 10px 0;
+        margin: 10px 5px;
+    }
+
+    .our-causes .container {
+        padding: 10px;
+    }
+
+    .our-causes .container .cards .card-right {
+        padding: 0 10px 10px 10px;
+    }   
+    form {
+        max-width: 380px;
+    }
+    label {
+        font-size: 18px;
+    }
+    .formulary .row {
+        flex-direction: column;
+    }
+} /*680px */
+
+@media screen and (max-width: 470px) {
+    .navbar .logo{
+        width: 90px;
+    }
+    .menu-hamburger {
+        font-size: 35px;
+    }
+    .nav-links {
+        font-size: 16px;
+    }
+    .welcome {
+        padding: 0;
+    }
+    h1{
+        font-size: 10vw;
+        margin: 0
+    }
+    .welcome .btn-donate {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        width: 100%;
+    }
+    .our-causes{
+        padding: none;
+    }
+    .our-causes .container {
+        padding: 10px;
+    }
+    .our-causes .container .cards .card-left {
+        flex-basis: 100%;
+        max-width: none;
+        min-width: 0;
+        gap: 5px;
+        font-size: 0.9rem;
+    }
+    .our-causes .container .cards .card-right {
+        flex-basis: 100%;
+    }
+    .our-causes .container .cards .card-right img {
+        width: 100%;
+        height: auto;
+    }
+
+    .footer-content {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "center"
+        "right"
+        "left";
+        gap: 30px;
+    }
+
+    .footer-center h3 {
+        margin-left: 0;
+    }
+    .footer-right .footer-icons {
+        justify-content: space-evenly;
+    }
+    .footer-right .about-company {
+        margin: 15px 15px;
+    }
+} /*470px */
+
+@media screen and (max-width: 320px) {
+    /* * {
+        overflow-x: scroll;
+    } */
+    body {
+        font-size: 20px;
+    }
+    .navbar .logo {
+
+        width: 80px;
+    }
+    .navbar .menu-hamburger {
+        font-size: 1.5em;
+    }
+    .banner-bottom-section .container {
+        padding: 0;
+    }
+    h1 {
+        /* font-size: 1.9rem; */
+        font-size: 12vw;
+    }
+    h2 {
+        font-size: 1rem;
+    }
+    .welcome .btn-donate  {
+        overflow-x: scroll;
+    }
+
+    .welcome .btn-donate button {
+        width: 160px;
+        font-size: 0.8rem;
+        margin: 15px 7px ;
+        padding: 15px 0;
+    }
+} /*320px*/
+
+
+@media (min-width: 1440px) {
+    h1{
+        font-size: 72px;
+    }
+}
